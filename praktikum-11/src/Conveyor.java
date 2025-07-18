@@ -25,6 +25,6 @@ public class Conveyor {
     }
 
     public boolean isOverloaded() {
-        return this.bottles.size() == 50;
+        return this.bottles.size() >= 50;
     }
 }
